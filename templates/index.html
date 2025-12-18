@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Text Analyzer - Home</title>
+</head>
+<body>
+<h1>Welcome to the Text Analyzer</h1>
+<h3> Enter Your text below </h3>
+<form action="/analyze" method="GET">
+	<textarea name='text' style='width: 648px; height: 144px;'></textarea><br>
+<input type='radio' name='removepunc'>Remove Punctuation<br>
+<input type='radio' name='fullcap'>UPPERCASE ALL <br>
+<input type='radio' name='nline'>Remove new lines <br>
+<input type='radio' name='space'>Remove spaces <br>
+<input type='radio' name='count'>Count Characters <br>
+<button type="submit">Analyze</button>
+</form>
+</body>
+</html>
